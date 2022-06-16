@@ -1,0 +1,36 @@
+.container{
+  margin: 0;
+  padding: 20px;
+  background-color: #24A19C;
+  border: dashed #D96098 3px;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  
+}
+
+.listItems {
+  margin: .5em;
+  padding: 1em;
+  border: red 1px solid;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.disabledItems{
+  margin: .5em;
+  padding: 1em;
+  border: red 1px solid;
+  border-radius: 8px;
+  background-color: blue;
+  cursor: not-allowed;
+}
+
+.listItems:hover{
+  background-color: aliceblue;
+}
+
